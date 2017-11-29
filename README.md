@@ -1,4 +1,4 @@
-# passsalt.py
+# passalt.py
 
 [passalt](https://github.com/anqurvanillapy/passalt) in Python 3.
 
@@ -13,7 +13,7 @@ $ pip install passalt
 ```py
 >>> import passalt
 >>> hash = passalt.new('foo')
-sha512$oohimsalted$blahblahblah
+'sha512$oohimsalted$blahblahblah'
 >>> passalt.check(hash, 'foo')
 True
 >>> passalt.check(hash, 'bar')
